@@ -1,9 +1,6 @@
 #!/bin/bash
 cd ..
 
-wit-bindgen rust-wasm --export oracle_api.wit --out-dir rust-producer
-wit-bindgen rust-wasm --import oracle_api.wit --out-dir rust-consumer
-
 cd rust-producer/
 cargo build --target wasm32-unknown-unknown --release
 cd ../rust-consumer/

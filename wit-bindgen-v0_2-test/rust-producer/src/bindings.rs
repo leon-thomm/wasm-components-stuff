@@ -1,7 +1,7 @@
 use crate::OracleApi;
 
 #[allow(clippy::all)]
-pub(crate) mod oracle_api {
+pub(crate) bmod oracle_api {
   #[repr(u8)]
   #[derive(Clone, Copy, PartialEq, Eq)]
   pub enum Error {
