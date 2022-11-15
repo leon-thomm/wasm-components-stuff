@@ -1,0 +1,6 @@
+[submodule "wit-bindgen"]
+	path = wit-bindgen
+	url = https://github.com/bytecodealliance/wit-bindgen
+[submodule "wasm-components-example"]
+	path = wasm-components-example
+	url = https://github.com/leon-thomm/wasm-components-example

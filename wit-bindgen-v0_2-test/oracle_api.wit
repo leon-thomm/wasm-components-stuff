@@ -1,0 +1,9 @@
+enum error {
+    some-error,
+}
+
+record magic-box {
+    payload: u64,
+}
+
+secret: func() -> expected<magic-box, error>

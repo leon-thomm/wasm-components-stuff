@@ -1,0 +1,11 @@
+enum error {
+    some-error,
+}
+
+type payload-type = list<u8>
+
+record magic-box {
+    payload: payload-type,
+}
+
+secret: func() -> expected<magic-box, error>
